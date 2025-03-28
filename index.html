@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Resume</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #FAEAEA; }
+        .header { background: #e83c3c; color: white; text-align: left; padding: 30px; display: flex; align-items: center; }
+        .profile-img { width: 120px; height: 120px; border-radius: 50%; margin-right: 20px; object-fit: cover; border: 3px solid white; }
+        .header-text { color: white; }
+        .header h1, .header p { margin: 0; }
+        .nav { background: #da8712; padding: 10px; text-align: center; }
+        .nav a { color: white; text-decoration: none; padding: 14px 20px; display: inline-block; }
+        .nav a:hover { background: #B22222; }
+        .container { width: 80%; margin: auto; padding: 20px; background: white; border-radius: 10px; }
+        .section { margin: 20px 0; padding: 20px; background: #F4C2C2; border-radius: 10px; }
+        .btn { display: inline-block; padding: 10px 20px; background: #800000; color: white; text-decoration: none; border-radius: 5px; }
+        .btn:hover { background: #da8712; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img src="photo.jpg'" alt="Profile Picture" class="profile-img">
+        <div class="header-text">
+            <h1>Vinitha Shree S</h1>
+            <p>Student</p>
+        </div>
+    </div>
+    <div class="nav">
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+        <a href="#resume">Resume</a>
+    </div>
+    <div class="container">
+        <div id="about" class="section">
+            <h2>About Me</h2>
+            <p>I consider myself a responsible and orderly person. I'm a dedicated, organized, and methodical individual. Seeking a challenging position in a reputed organization where I can learn new skills, expand my knowledge, and leverage my learnings.</p>
+        </div>
+        <div id="education" class="section">
+            <h2>Education Background</h2>
+            <p><strong>Bachelor of Science in Information Technology</strong></p>
+            <p>Sasurie College of Arts and Science (2023 - Present)</p>
+            <p><strong>Higher Education</strong></p>
+            <p>VAT Trust Matriculation School</p>
+            <p>12th (2022-2023) with 96%</p>
+            <p>10th (2020-2021) with 90%</p>
+        </div>
+        <div id="skills" class="section">
+            <h2>Skills</h2>
+            <p><strong>Hard Skills:</strong> C Programming, Computer Operating System</p>
+            <p><strong>Soft Skills:</strong> Decision Making, Communication, Multi-tasking</p>
+        </div>
+        <div id="contact" class="section">
+            <h2>Contact</h2>
+            <p><strong>Mobile:</strong> +91 93420 24309</p>
+            <p><strong>Email:</strong> <a href="mailto:vinithaselvam1717@gmail.com">vinithaselvam1717@gmail.com</a></p>
+            <p><strong>Location:</strong> 122, Old Market Street, Tiruppur</p>
+        </div>
+        <div id="resume" class="section">
+            <h2>Download Resume</h2>
+            <a href="Resume.pdf" download class="btn">Download Resume</a>
+        </div>
+    </div>
+</body>
+</html>
